@@ -35,4 +35,4 @@ npm start
 
 * Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-* Live project: 
+* Live project: https://davidalbort.github.io/spa-rickandmorty/
