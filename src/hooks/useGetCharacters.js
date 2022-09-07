@@ -10,13 +10,19 @@ const useInitialState = () =>{
     const [toogleInformation, setToogleInformation]=useState(false);
 
     const addToCharacter= (payload) => {
-        setState({
-            ...state,
-            characters:[payload,...state.characters],
-        })
+        if(payload){
+            setState({
+                ...state,
+                characters:[payload,...state.characters],
+            })
+
+        }
     }
     const addToCharacterById= (character) => {
-        setViewCharacter(character);
+        if(character){
+            setViewCharacter(character);
+
+        }
     }
     return {
         state,

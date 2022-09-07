@@ -10,6 +10,7 @@ function App() {
 
   const initialState= useInitialState();
   const {data, loading}= useQuery(ALL_CHARACTERS);
+  console.log(data)
   let totalId;
   if(!loading){
     totalId = data.characters.info.count;

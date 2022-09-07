@@ -3,12 +3,12 @@ import { StyledArticle } from "../../styles/components/MenuItem";
 import { AppContext } from "../../context/Appcontext";
 import { setToogleInformation,addToCharacterById} from '../../hooks/useGetCharacters';
 
-const MenuItem = ({character}) =>{
+const MenuItem = ({character,handleClick}) =>{
     const {setToogleInformation,addToCharacterById}=useContext(AppContext);
-    const handleClick = (person) => {
-        addToCharacterById(character);
-        setToogleInformation(true);
-    }
+    // const handleClick = (person) => {
+    //     addToCharacterById(character);
+    //     setToogleInformation(true);
+    // }
     return(
         <StyledArticle>
 
