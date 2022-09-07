@@ -11,6 +11,7 @@
 * Sketching the application interface.
 * Creation of components, containers and home page to structure the application with semantic HTML, all this keeping in mind the Atomic Design methodology.
 * Creation of the basic logic and interaction between components and containers with Hooks of react and Apollo Client.
+* adding some unit tests with react testing library on components such as rendering and validation of logic and also to hooks.
 * Creation of styles for components and containers with styled compononents, without media query and keeping in mind the mobile first.
 -Documentation of the whole path.
 
